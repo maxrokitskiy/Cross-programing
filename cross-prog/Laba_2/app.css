@@ -1,0 +1,52 @@
+#map {
+  position: absolute;
+  width: 1200px;
+  height: 500px;
+  left: 16%;
+  top:13%;
+  border-radius: 30px;
+  border-style: ridge;
+  border-color: rgb(6, 109, 37); 
+}
+#display{
+  width: 200px;
+  height: 500px;
+  position: absolute;
+  top:13%;
+  left:3%;
+  border: solid;
+  border-radius: 30px;
+  border-style: ridge;
+  border-color: rgb(19, 75, 5); 
+  font-family: sans-serif;
+  font-weight: solid;
+  font-size: 1.6vw;
+  color:#ffffff;
+  background:#0d8133;
+}
+#bloks{ 
+  line-height: 1.6;
+  color: #ffffff;
+  box-sizing: border-box;
+  display: block;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3vw;
+  position: relative;
+  left: 50%;
+  top:5%;
+  transform: translate(-50%, -50%);
+  float: left;
+}
+#H{
+  font-size: 2vw;
+  background: rgb(20, 133, 10);
+  color: #ffffff;
+  border-radius: 1vw;
+  padding: 0 1vw 1vw 1vw;
+  display: inline-block;
+}
+html, body {
+  background: linear-gradient(180deg, rgb(15, 27, 4) 31%, rgba(125, 206, 105, 0.95) 52%, rgb(8, 17, 7) 66%);
+  height: 100%;      
+}
